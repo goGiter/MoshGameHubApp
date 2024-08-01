@@ -13,6 +13,7 @@ export interface Game {
   name: string;
   background_image: string;
   parent_platforms: { platform: Platform }[]; // design smell in Rawgs api
+  metacritic: number;
 }
 
 interface GamesResponse {
